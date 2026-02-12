@@ -6,7 +6,7 @@ pipeline {
         stage('Checkout Code') {
             steps {
                 // Checkout specific branch from Git
-                git branch: 'main', 
+                git branch: 'master', 
                     url: 'https://github.com/Hassan-khan-007/hello-world-java.git'
             }
         }
